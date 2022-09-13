@@ -1,10 +1,18 @@
 ion-content{
   text-align: center;
-  --padding-top: 24px;
+  padding-top: 24px;
   --padding-start: 24px;
   --padding-end: 24px;
+  --background:rgb(120, 120, 120);
+  --color:white;
 }
 
 ion-item{
   margin: 16px 0;
+
+}
+
+ion-button{
+  --background: red;
+  --border: none;
 }
